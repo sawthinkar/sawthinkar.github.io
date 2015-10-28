@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Saw Thinkar</title>
+		<script type="text/javascript" src="script.js"></script>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css"
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
 		<nav>
@@ -26,7 +27,19 @@
         		<li><a href="https://goo.gl/wjq7HJ">My Github</a></li>
 			</ul>
 		</footer>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="script.js"></script>
+		 <form name="tempForm">
+            <label for="temp">Temperature:</label>
+            <input type="text" id="temp"><br>
+
+            <input type="radio" name="choice" value="fahrenheit" checked />Convert to Fahrenheit <br>
+            <input type="radio" name="choice" value="celsius">Convert to Celsius  <br>
+
+            <label for="resultField">Result: </label>
+            <input type="text" id="resultField"><br>
+
+            <input type="button" value="Convert" onclick="processForm()">
+        </form>
+
+	
 	</body>
 </html>
