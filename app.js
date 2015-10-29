@@ -1,1 +1,1 @@
-alert("HI")
+alert("Welcome to the Home Page!")
