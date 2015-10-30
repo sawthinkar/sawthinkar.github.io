@@ -1,8 +1,12 @@
 body {
-    background: #202024 url('https://upload.wikimedia.org/wikipedia/commons/8/89/Hot_air_balloons_in_Bagan%2C_Myanmar_%28Burma%29.jpg') repeat center center;
+    
     margin: 60px auto;
     width: 70%;
 }
+
+
+
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -35,6 +39,7 @@ footer {
 }
 
 ul.posts { 
+    background: #202024 url('https://upload.wikimedia.org/wikipedia/commons/8/89/Hot_air_balloons_in_Bagan%2C_Myanmar_%28Burma%29.jpg') repeat center center;
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
