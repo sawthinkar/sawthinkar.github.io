@@ -24,7 +24,7 @@ nav ul ul {
 	nav ul li:hover > ul {
 		display: block;
 	}
-nav ul li, footer ul li {
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
