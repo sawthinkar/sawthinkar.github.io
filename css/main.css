@@ -16,6 +16,14 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
