@@ -21,7 +21,7 @@ body nav ul ul {
 	display: none;
 }
 
-	nav ul li:hover > ul {
+	body nav ul li:hover > ul {
 		display: block;
 	}
 footer ul li {
