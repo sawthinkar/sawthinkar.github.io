@@ -6,10 +6,6 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-
-
-
-
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -17,13 +13,6 @@ footer ul {
     font-weight: bold;
 }
 
-nav ul ul {
-	display: none;
-}
-
-	nav ul li:hover > ul {
-		display: block;
-	}
 footer ul li {
     display: inline;
     margin-right: 20px;
