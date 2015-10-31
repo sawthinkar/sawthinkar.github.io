@@ -17,11 +17,11 @@ footer ul {
     font-weight: bold;
 }
 
-body nav ul ul {
-	display: block;
+nav ul ul {
+	display: none;
 }
 
-	body nav ul li:hover > ul {
+	nav ul li:hover > ul {
 		display: block;
 	}
 footer ul li {
