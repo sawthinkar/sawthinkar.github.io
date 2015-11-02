@@ -6,9 +6,43 @@
 		<link href="/css/font-awesome.min.css" rel="stylesheet">
 		<link href='/css/fonts.googleapis.css' rel='stylesheet' type='text/css'>
 		<link href='/css/style.css' rel='stylesheet'>
+		
+		<style type="text/css">
+	*{
+	margin: 0px;
+	padding: 0px;
+	}
+	#image {
+		position: relative;
+		z-index: -1
+	}
+	#content {
+		height: 750px;
+		width: 100%;
+		margin-top:-10px; 
+		background-color:#4dbbac;
+		position: relative;
+		z-index: 1;
+	}
+</style>
+<script type="text/javascript">
+	var ypos,image;
+	function parallex() {
+		image = document.getElementById('image');
+		ypos = window.pageYOffset;
+		image.style.top = ypos * .7+ 'px';
+	}
+	window.addEventListener('scroll', parallex),false;
+
+</script>
+
 	</head>
 	
 	<body>
+		
+		<img id="image" src="https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/778704_213517998820786_158671774_o.jpg" height="710px" width="100%" />
+<div id="content"></div>
+
 		<div class="menu">
 			<!-- Menu icon -->
 			<div class="icon-close">
