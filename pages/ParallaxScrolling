@@ -34,7 +34,7 @@
 </head>
 
 <body>
-<img id="image" src="img/slide1.jpg" height="710px" width="100%" />
+<img id="image" src="https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/778704_213517998820786_158671774_o.jpg" height="710px" width="100%" />
 <div id="content"></div>
 
 	
