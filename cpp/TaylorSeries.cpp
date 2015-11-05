@@ -91,3 +91,4 @@ sum_negative = sum_negative + (power (x,i) / fact (i));
     return output;
 	return deg=x*(180)/pi;
 	}
+//http://code.runnable.com/VUL6gNIhVHAad0zR/taylor-series-for-c%2B%2B
