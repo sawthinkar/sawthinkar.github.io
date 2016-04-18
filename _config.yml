@@ -1,4 +1,4 @@
 name: Saw Thinkar, Saw Thinkar
 markdown: kramdown
 
-permalink: /blog/:2016/:04/:18/:saw-thinkar-site-launched
+permalink: /blog/:year/:month/:day/:title
