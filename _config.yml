@@ -1,2 +1,4 @@
 name: Saw Thinkar, Saw Thinkar
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
