@@ -21,7 +21,7 @@ body {
 .intro {
   background-image: url("Group.png");
   /*background: #F45B69;*/
-  background-size: 80px 60px;
+  background-size: 80px 60px; 
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;
