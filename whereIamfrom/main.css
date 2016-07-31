@@ -21,6 +21,9 @@ body {
 .intro {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/2000px-Flag_of_Myanmar.svg.png");
   /*background: #F45B69;*/
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
   padding: 100px 0;
 }
 
