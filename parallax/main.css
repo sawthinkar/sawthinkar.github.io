@@ -15,7 +15,7 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("https://pixabay.com/static/uploads/photo/2013/11/28/10/37/grass-220096_960_720.jpg");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a7/Rossville_Boardwalk_Wolf_River.jpg");
   min-height: 100%;
 }
 
@@ -25,7 +25,7 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("https://pixabay.com/static/uploads/photo/2015/09/23/20/13/nature-954291_960_720.jpg");
+  background-image: url("https://static.pexels.com/photos/3247/nature-forest-industry-rails.jpg");
   min-height: 400px;
 }
 
