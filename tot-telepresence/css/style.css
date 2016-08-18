@@ -237,7 +237,7 @@ header .carousel-indicators li {
 	overflow: hidden;
 	padding: 230px 0px 150px 0px;
 	min-height: 600px;
-	/*background: url('../img/dunes.jpg');*/
+	/*background: url('../img/dunes.jpg');*/ 
 	background-position: center;
 	background-repeat: repeat-x;
 	color: white;
