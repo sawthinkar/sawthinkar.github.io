@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: sawthinkar.github.io
+Token: 77eb75b8196adb61ad1dde27a4e9c4e104ce8149ee2f4b6f74e97a8735912957
