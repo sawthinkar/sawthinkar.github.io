@@ -1,8 +1,24 @@
+
 body {
     margin: 60px auto;
     width: 70%;
     /* display: flex; */
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
