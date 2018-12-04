@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>What is Harmonic Series?</h1>
+
+<h2>A divergent infinite series</h2>
+<h3>Read more about <a href="https://en.wikipedia.org/wiki/Harmonic_series_(mathematics)">HS</a> .</h3>
+
+</head>
+<body>
+
+<p>Click the button to calculate Harmonic Series</p>
+
+<button onclick="myFunction()">Harmonic Series</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var sum = 0;
+    var n = prompt("Please enter number of terms, but beware of inputting huge numbers.");
+    if (n != null) {
+       for (var i = 1; i <=n; i++) {
+sum = sum + 1/i;
+console.log(sum)
+
+document.getElementById("demo").innerHTML =
+        "Harmonic series: Sum of first " + n+ " terms is " + sum +".";
+    }
+  }
+}
+</script>
+<button onclick="location.href='http://sawthinkar.github.io'">
+     HOME</button>
+</body>
+</html>
