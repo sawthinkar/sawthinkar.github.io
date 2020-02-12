@@ -19,7 +19,7 @@ body {
 
 h2, .white{
     color: #fff;
-    cursor: url("/cursors/stk.gif"), url("/cursors/stk.png"), url("/cursors/stk.cur"), not-allowed;
+    cursor: url(/cursors/stk.png) 30 30, none;
 }
 
 .grid-container {
