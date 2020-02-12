@@ -17,8 +17,9 @@ body {
     color: #7A7C80;
 }
 
-h2,.white{
+h2, .white{
     color: #fff;
+    cursor: url("/cursors/stk.gif"), url("/cursors/stk.png"), url("/cursors/stk.cur"), not-allowed;
 }
 
 .grid-container {
@@ -82,10 +83,11 @@ ul.posts li {
 
 /*section 1 */
 .section-1{
-    padding-top: 40vh;
-    padding-bottom: 40vh;
-    padding-left: 10vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     text-align: center;
+    /* change css cursor type */
+    cursor: wait;
 } 
 
 .section-1 p{
@@ -105,7 +107,7 @@ ul.posts li {
 }
 /* section 2 */
 .section-2{
-    padding-top: 20vh;
+    padding-bottom: 5vh;
     width: 70%;
 }
 

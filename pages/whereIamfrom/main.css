@@ -8,10 +8,15 @@
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
-  color: #000000;
+  background: #3b5998;
+  color: #7A7C80;
   overflow-x: hidden;
   padding-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 50px;
 }
 
 
@@ -19,11 +24,12 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/Bagan,_Burma.jpg");
-  /*background: #F45B69;*/
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/Bagan,_Burma.jpg"); */
+  /* background-image: url("https://haydenng.files.wordpress.com/2018/04/anigif1.gif?w=500&h=1800"); */
+  background: white;
   background-size: 100% 100%; 
-  background-size:     cover;                      /* <------ */
-  background-repeat:   no-repeat;
+  background-size: cover;                      /* <------ */
+  background-repeat: no-repeat;
   background-position: center center;
   padding: 100px 0;
 }
@@ -37,6 +43,7 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  color: #7A7C80;
 }
 
 
@@ -68,7 +75,8 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #F45B69;
+  background: rgb(247, 247, 247);
+  border-radius: 10px;
 }
 
 .timeline ul li div::before {
@@ -87,7 +95,7 @@ h1 {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -97,5 +105,5 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69;
+  border-color: transparent transparent transparent rgb(255, 255, 255);
 }
