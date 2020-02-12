@@ -20,12 +20,12 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url("https://static.pexels.com/photos/479/landscape-nature-sunset-trees.jpg");
+  background-image: url("https://s3-ap-southeast-1.amazonaws.com/cdn.sawthinkar/Bagan-Human-Myanmar-Market-Stall-Market-Burma-2000828.jpg");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("https://static.pexels.com/photos/3247/nature-forest-industry-rails.jpg");
+  background-image: url("https://s3-ap-southeast-1.amazonaws.com/cdn.sawthinkar/YathaePyanCave.jpg");
   min-height: 400px;
 }
 
