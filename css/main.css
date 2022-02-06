@@ -19,7 +19,7 @@ body {
 
 h2, .white{
     color: #fff;
-    cursor: url(/cursors/drum.png) 30 30, none;
+    cursor: url(/cursors/drum-white.png) 30 30, none;
 }
 
 .grid-container {
